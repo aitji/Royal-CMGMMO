@@ -33,4 +33,4 @@ What you can't do with this project:
 
 ## To-Do Checklist
 This is Features of Planning:
-[] nothing (rn)
+[ ] nothing (rn)
