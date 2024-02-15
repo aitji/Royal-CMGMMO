@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "§7This addon made for enchant you menu experiment in CMGMMO Server\\n§f@InwAitJi All right reserve",
+        "name": "§l§6ROYAL §r§eCMGMMO",
+        "uuid": "790d351c-ed73-4b96-83a9-13bda20ec104",
+        "version": [0, 0, 1],
+        "min_engine_version": [0, 0, 1]
+    },
+    "metadata": {
+        "authors": ["§6Note§f: §7This will collect all credit(s) resources i usage~", "§cInwAitJi §7ResourcePack Owner!\\n§eRANK§f: §aCMGMMO Scripting"]
+    },
+    "modules": [{
+        "version": [0, 0, 1],
+        "type": "resources",
+        "description": "§cInwAitJi §7ResourcePack Owner!",
+        "uuid": "ad40778e-2c39-11eb-adc1-0242ac120002"
+    }]
+}

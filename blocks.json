@@ -1,0 +1,84 @@
+{
+    "moss_carpet": {
+        "textures": "moss_block",
+        "isotropic": true,
+        "sound": "moss_carpet"
+    },
+    "polished_blackstone_double_slab": {
+        "textures": {
+            "down": "polished_blackstone",
+            "side": "polished_blackstone_double_slab",
+            "up": "polished_blackstone"
+        },
+        "sound": "stone"
+    },
+    "weathered_double_cut_copper_slab": {
+        "textures": "weathered_cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "moss_block": {
+        "textures": "moss_block",
+        "isotropic": true,
+        "sound": "moss_block"
+    },
+    "double_cut_copper_slab": {
+        "textures": "cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "exposed_double_cut_copper_slab": {
+        "textures": "exposed_cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "polished_deepslate_double_slab": {
+        "textures": "polished_deepslate_double_slab",
+        "isotropic": false,
+        "sound": "deepslate"
+    },
+    "waxed_weathered_double_cut_copper_slab": {
+        "textures": "weathered_cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "oxidized_double_cut_copper_slab": {
+        "textures": "oxidized_cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "format_version": "1.1.0",
+    "waxed_double_cut_copper_slab": {
+        "textures": "cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "soul_campfire": {
+        "textures": {
+            "down": "soul_campfire_log",
+            "side": "soul_campfire_log_lit",
+            "up": "soul_campfire_fire"
+        },
+        "sound": "wood"
+    },
+    "waxed_exposed_double_cut_copper_slab": {
+        "textures": "exposed_cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "glow_frame": {
+        "textures": "glow_item_frame",
+        "blockshape": "invisible",
+        "sound": "itemframe"
+    },
+    "waxed_oxidized_double_cut_copper_slab": {
+        "textures": "oxidized_cut_copper_double_slab",
+        "isotropic": false,
+        "sound": "copper"
+    },
+    "frame": {
+        "textures": "itemframe_background",
+        "blockshape": "invisible",
+        "sound": "itemframe"
+    }
+}

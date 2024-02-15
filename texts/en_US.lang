@@ -1,0 +1,13 @@
+addExternalServerScreen.addServer=§lSubmit §rAdded
+addExternalServerScreen.nameTextBoxLabel=Server Name (eg: §eCMG§fMMO§r)
+addExternalServerScreen.namePlaceholder=examples §7CMGMMO§r
+addExternalServerScreen.ipTextBoxLabel=Server Address (eg: §7cmgmmo.mc.in.th§r)
+addExternalServerScreen.portTextBoxLabel=Server Port (eg: §721356§r)
+addExternalServerScreen.ipPlaceholder=example §7cmgmmo.mc.in.th§r
+addExternalServerScreen.alreadyAdded=§cThis server has already been added
+addExternalServerScreen.saveButtonLabel=§bSave
+addExternalServerScreen.playButtonLabel=§aPlay
+addExternalServerScreen.removeButtonLabel=§4Remove
+addExternalServerScreen.removeConfirmation=Are you sure you want to §cremove§r this server? 
+addExternalServerScreen.addTitle=Add §8Server§r Now!
+addExternalServerScreen.editTitle=Edit §8Server§r Server
