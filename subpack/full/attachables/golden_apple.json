@@ -1,0 +1,72 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:golden_apple",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/golden_apple1",
+				"Item2": "textures/entity/golden_apple2",
+				"item3": "textures/entity/golden_apple3",
+				"item4": "textures/entity/golden_apple4",
+				"Item5": "textures/entity/golden_apple5",
+				"item6": "textures/entity/golden_apple6",
+				"item7": "textures/entity/golden_apple7",
+				"Item8": "textures/entity/golden_apple8",
+				"item9": "textures/entity/golden_apple9",
+				"item10": "textures/entity/golden_apple10",
+				"item11": "textures/entity/golden_apple11",
+				"Item12": "textures/entity/golden_apple12",
+				"item13": "textures/entity/golden_apple13",
+				"item14": "textures/entity/golden_apple14",
+				"Item15": "textures/entity/golden_apple15",
+				"item16": "textures/entity/golden_apple16",
+				"item17": "textures/entity/golden_apple17",
+				"Item18": "textures/entity/golden_apple18",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8",
+				"item9": "geometry.item9",
+				"item10": "geometry.item10",
+				"item11": "geometry.item11",
+				"item12": "geometry.item12",
+				"item13": "geometry.item13",
+				"item14": "geometry.item14",
+				"item15": "geometry.item15",
+				"item16": "geometry.item16",
+				"item17": "geometry.item17",
+				"item18": "geometry.item18"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+
+			"render_controllers": [
+				{"controller.render.18_slides": "!v.is_enchanted"},
+				{"controller.render.18_slides": "v.is_enchanted"}
+			]
+		}
+	}
+}

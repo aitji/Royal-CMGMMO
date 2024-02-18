@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:spider_eye",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/spider_eye1",
+				"Item2": "textures/entity/spider_eye2",
+				"item3": "textures/entity/spider_eye3",
+				"item4": "textures/entity/spider_eye4",
+				"Item5": "textures/entity/spider_eye5",
+				"item6": "textures/entity/spider_eye6",
+				"item7": "textures/entity/spider_eye7",
+				"Item8": "textures/entity/spider_eye8",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+
+			"render_controllers": [
+				{"controller.render.8_slides": "!v.is_enchanted"}
+			]
+		}
+	}
+}

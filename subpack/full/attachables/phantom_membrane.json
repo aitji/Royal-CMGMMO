@@ -1,0 +1,93 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:phantom_membrane",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/phantom_membrane1",
+				"Item2": "textures/entity/phantom_membrane2",
+				"item3": "textures/entity/phantom_membrane3",
+				"item4": "textures/entity/phantom_membrane4",
+				"Item5": "textures/entity/phantom_membrane5",
+				"item6": "textures/entity/phantom_membrane6",
+				"item7": "textures/entity/phantom_membrane7",
+				"Item8": "textures/entity/phantom_membrane8",
+				"item9": "textures/entity/phantom_membrane9",
+				"item10": "textures/entity/phantom_membrane10",
+				"item11": "textures/entity/phantom_membrane11",
+				"Item12": "textures/entity/phantom_membrane12",
+				"item13": "textures/entity/phantom_membrane13",
+				"item14": "textures/entity/phantom_membrane14",
+				"Item15": "textures/entity/phantom_membrane15",
+				"item16": "textures/entity/phantom_membrane16",
+				"item17": "textures/entity/phantom_membrane17",
+				"Item18": "textures/entity/phantom_membrane18",
+				"item19": "textures/entity/phantom_membrane19",
+				"item20": "textures/entity/phantom_membrane20",
+				"item21": "textures/entity/phantom_membrane21",
+				"Item22": "textures/entity/phantom_membrane22",
+				"item23": "textures/entity/phantom_membrane23",
+				"item24": "textures/entity/phantom_membrane24",
+				"Item25": "textures/entity/phantom_membrane25",
+				"item26": "textures/entity/phantom_membrane26",
+				"item27": "textures/entity/phantom_membrane27",
+				"Item28": "textures/entity/phantom_membrane28",
+				"item29": "textures/entity/phantom_membrane29",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8",
+				"item9": "geometry.item9",
+				"item10": "geometry.item10",
+				"item11": "geometry.item11",
+				"item12": "geometry.item12",
+				"item13": "geometry.item13",
+				"item14": "geometry.item14",
+				"item15": "geometry.item15",
+				"item16": "geometry.item16",
+				"item17": "geometry.item17",
+				"item18": "geometry.item18",
+				"item19": "geometry.item19",
+				"item20": "geometry.item20",
+				"item21": "geometry.item21",
+				"item22": "geometry.item22",
+				"item23": "geometry.item23",
+				"item24": "geometry.item24",
+				"item25": "geometry.item25",
+				"item26": "geometry.item26",
+				"item27": "geometry.item27",
+				"item28": "geometry.item28",
+				"item29": "geometry.item29"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+
+			"render_controllers": [
+				{"controller.render.29_slides": "!v.is_enchanted"}
+			]
+		}
+	}
+}

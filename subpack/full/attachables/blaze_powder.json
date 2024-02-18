@@ -1,0 +1,60 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:blaze_powder",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/blaze_powder1",
+				"Item2": "textures/entity/blaze_powder2",
+				"item3": "textures/entity/blaze_powder3",
+				"item4": "textures/entity/blaze_powder4",
+				"Item5": "textures/entity/blaze_powder5",
+				"item6": "textures/entity/blaze_powder6",
+				"item7": "textures/entity/blaze_powder7",
+				"Item8": "textures/entity/blaze_powder8",
+				"item9": "textures/entity/blaze_powder9",
+				"item10": "textures/entity/blaze_powder10",
+				"item11": "textures/entity/blaze_powder11",
+				"Item12": "textures/entity/blaze_powder12",
+				"item13": "textures/entity/blaze_powder13",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8",
+				"item9": "geometry.item9",
+				"item10": "geometry.item10",
+				"item11": "geometry.item11",
+				"item12": "geometry.item12",
+				"item13": "geometry.item13"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+			"render_controllers": [
+				{"controller.render.13_slides": "!v.is_enchanted"}
+			]
+		}
+	}
+}

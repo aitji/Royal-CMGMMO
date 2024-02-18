@@ -1,0 +1,63 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:nether_star",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/nether_star1",
+				"Item2": "textures/entity/nether_star2",
+				"item3": "textures/entity/nether_star3",
+				"item4": "textures/entity/nether_star4",
+				"Item5": "textures/entity/nether_star5",
+				"item6": "textures/entity/nether_star6",
+				"item7": "textures/entity/nether_star7",
+				"Item8": "textures/entity/nether_star8",
+				"item9": "textures/entity/nether_star9",
+				"item10": "textures/entity/nether_star10",
+				"item11": "textures/entity/nether_star11",
+				"Item12": "textures/entity/nether_star12",
+				"item13": "textures/entity/nether_star13",
+				"item14": "textures/entity/nether_star14",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8",
+				"item9": "geometry.item9",
+				"item10": "geometry.item10",
+				"item11": "geometry.item11",
+				"item12": "geometry.item12",
+				"item13": "geometry.item13",
+				"item14": "geometry.item14"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+
+			"render_controllers": [
+				{"controller.render.14_slides": "!v.is_enchanted"}
+			]
+		}
+	}
+}

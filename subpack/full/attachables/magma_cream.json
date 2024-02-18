@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:magma_cream",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/magma_cream1",
+				"Item2": "textures/entity/magma_cream2",
+				"item3": "textures/entity/magma_cream3",
+				"item4": "textures/entity/magma_cream4",
+				"Item5": "textures/entity/magma_cream5",
+				"item6": "textures/entity/magma_cream6",
+				"item7": "textures/entity/magma_cream7",
+				"Item8": "textures/entity/magma_cream8",
+				"item9": "textures/entity/magma_cream9",
+				"item10": "textures/entity/magma_cream10",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8",
+				"item9": "geometry.item9",
+				"item10": "geometry.item10"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+
+			"render_controllers": [
+				{"controller.render.10_slides": "!v.is_enchanted"}
+			]
+		}
+	}
+}

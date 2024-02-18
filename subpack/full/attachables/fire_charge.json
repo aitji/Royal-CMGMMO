@@ -1,0 +1,67 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "minecraft:fire_charge",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_emissive_alpha"
+			},
+			"textures": {
+				"item1": "textures/entity/fire_charge1",
+				"Item2": "textures/entity/fire_charge2",
+				"item3": "textures/entity/fire_charge3",
+				"item4": "textures/entity/fire_charge4",
+				"Item5": "textures/entity/fire_charge5",
+				"item6": "textures/entity/fire_charge6",
+				"item7": "textures/entity/fire_charge7",
+				"Item8": "textures/entity/fire_charge8",
+				"item9": "textures/entity/fire_charge9",
+				"item10": "textures/entity/fire_charge10",
+				"item11": "textures/entity/fire_charge11",
+				"Item12": "textures/entity/fire_charge12",
+				"item13": "textures/entity/fire_charge13",
+				"item14": "textures/entity/fire_charge14",
+				"Item15": "textures/entity/fire_charge15",
+				"item16": "textures/entity/fire_charge16",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"item1": "geometry.item1",
+				"item2": "geometry.item2",
+				"item3": "geometry.item3",
+				"item4": "geometry.item4",
+				"item5": "geometry.item5",
+				"item6": "geometry.item6",
+				"item7": "geometry.item7",
+				"item8": "geometry.item8",
+				"item9": "geometry.item9",
+				"item10": "geometry.item10",
+				"item11": "geometry.item11",
+				"item12": "geometry.item12",
+				"item13": "geometry.item13",
+				"item14": "geometry.item14",
+				"item15": "geometry.item15",
+				"item16": "geometry.item16"
+			},
+			"animations": {
+				"hold_first_person": "animation.sword",
+				"hold_third_person": "animation.sword"
+			},
+			"scripts": {
+				"animate": [
+			{
+				"hold_first_person": "c.is_first_person"
+			},
+			{
+				"hold_third_person": "!c.is_first_person"
+			}
+		]
+	},
+
+			"render_controllers": [
+				{"controller.render.16_slides": "!v.is_enchanted"}
+			]
+		}
+	}
+}
