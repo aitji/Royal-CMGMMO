@@ -1,36 +1,35 @@
-# Royal CMGMMO Minecraft Bedrock Resource Pack
-
+# Royal CMGMMO
 Royal CMGMMO is a resource pack designed for the **CMGMMO** server in Minecraft Bedrock Edition. It offers various animations, item enhancements, block modifications, particle effects, retextures and more.
 
-## Table of Contents
-1. [Feature Table](#feature-table)
-2. [Permission](#permission)
-3. [License](#license)
-4. [To-Do Checklist](#to-do-checklist)
-5. [Contributors](#contributors)
+Latest Release **([Week 1](../../releases/tag/week_1))**
+
+![banner](https://github.com/lnwAitJi/Royal-CMGMMO/assets/100911929/c5cf90b7-8c46-4da3-a5b1-8647eb557de5)
 
 ## Feature Table
-the feature table of CMGMMO+ this is all
 
-| Feature             | Description                                    |
-|---------------------|------------------------------------------------|
-| Particle            | Dugeon Overlay Particle                        |
-
-Add More Later
-
-## Contributors
-- [AitJi Gamer](https://github.com/lnwAitJi/)
-
-## Permission
-What you can't do with this project:
-- Publish the work other where from this
-- Claim you own work
-- Steal a code with o permission
-- Cracking a code
+| Feature                     | Description                                           |
+|-----------------------------|-------------------------------------------------------|
+| Bungleclown Dimension       | New dimension with interactive buttons.               |
+| Visual Enhancements         | Improved appearance for Silverfish and Ravager.       |
+| Dimensional Timer           | Countdown timer for safe Dimensional Jumps.           |
+| Boss Battle Health Boost    | Increased health for challenging monster mobs.        |
+| Water Sound Reduction       | Reduced volume of water-related sound effects.        |
+| Glare Reduction             | Diminished glare from water sources.                  |
+| Texture Cleanup             | Removed glitches in arrow and bolt item frames.       |
+| Arrow Tooltip Enhancement   | Improved tooltips for special arrows.                 |
+| Chat Arrow Icons            | Added arrow icons in chat for message reference.      |
+| Visual Weather Adjustments  | Enhanced visuals for moon, sun, and snow.             |
+| Wizard Tower Makeover       | Improved appearance of Wizard Towers.                 |
+| Sign Texture Adjustment     | Adjusted sign textures for better readability.        |
 
 ## License
-- this project protect by [MIT LICENSE](LICENSE)
 
-## To-Do Checklist
-This is Features of Planning:
-[ ] nothing (rn)
+This project is licensed under the [Royal-CMGMMO] - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Permissions[+]: What you can do
+- **Pull Request** to improved a code
+- **Education** learning this project
+
+## Permissions[-]: What you cann't do
+- **Copy** steal project
+- **Edit** Modification resocuepack
