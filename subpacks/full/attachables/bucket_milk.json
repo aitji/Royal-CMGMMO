@@ -29,8 +29,8 @@
 				"item8": "geometry.item8"
 			},
 			"animations": {
-				"hold_first_person": "animation.sword",
-				"hold_third_person": "animation.sword"
+				"hold_first_person": "animation.item.first_person",
+				"hold_third_person": "animation.item.hold_third_person"
 			},
 			"scripts": {
 				"animate": [

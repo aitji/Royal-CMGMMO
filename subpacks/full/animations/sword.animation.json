@@ -1,1 +1,0 @@
-{"format_version":"1.8.0","animations":{"animation.sword":{"loop":true,"bones":{"rightItem":{"rotation":["c.is_first_person ? -13.0 : 0.0","c.is_first_person ? 68.0 : 0.0","c.is_first_person ? -50.0 : 0.0"],"position":["c.is_first_person ? 0.15 : 0.0","c.is_first_person ? 3.5 : 0.0","c.is_first_person ? 2.0 : 0.0"],"scale":[0.5,1,1]}}}}}
