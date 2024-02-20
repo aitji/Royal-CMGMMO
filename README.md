@@ -22,6 +22,15 @@ Latest Release **([Week 1](../../releases/tag/week_1))**
 | Wizard Tower Makeover       | Improved appearance of Wizard Towers.                 |
 | Sign Texture Adjustment     | Adjusted sign textures for better readability.        |
 
+# Todo-List
+My plan to improvement this project!
+
+[ ] add splash Text
+[ ] new paronama
+[ ] funny/troll subpack
+[ ] 5-30 starter dugeon help!
+[ ] more particles, eg. footstep(player), mob blood, other
+
 ## License
 
 This project is licensed under the [Royal-CMGMMO] - see the [LICENSE.md](LICENSE.md) file for details.
