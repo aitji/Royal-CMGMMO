@@ -3552,8 +3552,8 @@
             {
                 "sidebar@scoreboard.scoreboard_sidebar": {
                     "offset": [
-                        "-3px",
-                        "-103px"
+                        "-0.5%",
+                        "-37.95%"
                     ],
                     "bindings": [
                         {
