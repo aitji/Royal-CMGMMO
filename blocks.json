@@ -71,24 +71,31 @@
         "isotropic": false,
         "sound": "copper"
     },
-    "glow_frame": {
-        "textures": "glow_item_frame",
-        "blockshape": "invisible",
-        "sound": "itemframe"
-    },
     "waxed_oxidized_double_cut_copper_slab": {
         "textures": "oxidized_cut_copper_double_slab",
         "isotropic": false,
         "sound": "copper"
     },
+
     "frame": {
         "textures": "itemframe_background",
         "blockshape": "invisible",
         "sound": "itemframe"
     },
+    "glow_frame": {
+        "textures": "glow_item_frame",
+        "blockshape": "invisible",
+        "sound": "itemframe"
+    },
+
     "ice": {
         "textures": "ice",
         "sound": "glass",
         "carried_textures": "ice_carried"
+    },
+    "amethyst_cluster": {
+        "textures": "amethyst_cluster",
+        "sound": "amethyst_cluster",
+        "carried_textures": "amethyst_cluster_carried"
     }
 }
