@@ -2,51 +2,33 @@
     "format_version": 1,
     "header": {
         "description": "§7This addon made for enchant you menu experiment in CMGMMO Server\n§f@InwAitJi All right reserve",
-        "name": "§l§6ROYAL §r§eCMGMMO §f(§aWeek §f2 §eFull Release§f)",
-        "uuid": "174b2ee7-5a24-497e-abef-ac8865a65e5a",
-        "version": [
-            0,
-            0,
-            2
-        ],
-        "min_engine_version": [
-            0,
-            0,
-            2
-        ]
-    },
-    "metadata": {
-        "authors": [
-            "§6Note§f: §7This will collect all credit(s) resources i usage~",
-            "§cInwAitJi §7ResourcePack Owner!\n§eRANK§f: §aCMGMMO Dev"
-        ]
+        "name": "§l§6ROYAL §r§eCMGMMO §f(§aWeek §f3 §eFull Release§f)",
+        "uuid": "2e7f11ac-2509-4475-b9d4-6e131ae0c3db",
+        "version": [ 0, 0, 3 ],
+        "min_engine_version": [ 0, 0, 3 ]
     },
     "modules": [
         {
-            "version": [
-                0,
-                0,
-                2
-            ],
+            "version": [ 0, 0, 3 ],
             "type": "resources",
             "description": "§cInwAitJi §7ResourcePack Owner!",
-            "uuid": "ad40778e-2c39-11eb-adc1-0242ac120002"
+            "uuid": "382a4c7d-5ba1-4d55-8385-500cd6eb76dc"
         }
     ],
     "subpacks": [
         {
             "folder_name": "nah",
-            "name": "§l§4NOT CMGMMO§r\n§fI didn't play §eCMGMMO§f, right now\nBut I prefer play use this!",
+            "name": "§l§4NOT CMGMMO §r§m(OTHER SERVER)§r\n§fI didn't play §eCMGMMO§f, right now\nBut I prefer play use this!",
             "memory_tier": 1
         },
         {
             "folder_name": "lite",
-            "name": "§l§cREMOVE§r\n§fminecraft/resources pack animation for better game play and make you game not a side show",
+            "name": "§l§cREMOVE §r§4(§l§mNOT§r§4 RECOMMENDED)§r\n§foptimized client, no particle, no animation\nno variations textures",
             "memory_tier": 1
         },
         {
             "folder_name": "full",
-            "name": "§l§9ANIMATED§r\n§6item§f for §5enchant§f you experiment, as §a§lpossible!§r",
+            "name": "§l§aFULL §r§2(RECOMMENDED)§r\n§fminecraft/resources pack animation for better game play and make you game not a side show",
             "memory_tier": 1
         }
     ]

@@ -3,4 +3,7 @@ _debug
 _dev
 _json
 
-*.mc*
+*.mcworld
+*.mcpack
+*.mcaddon
+*.zip

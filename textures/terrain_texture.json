@@ -2,12 +2,6 @@
     "padding": 8,
     "resource_pack_name": "vanilla",
     "texture_data": {
-        "ice_carried": {
-            "textures": "textures/items/carry_item/ice_carried"
-        },
-        "amethyst_cluster_carried": {
-            "textures": "textures/items/carry_item/amethyst_cluster_carried"
-        },
         "dead_bush_new": {
             "textures": [
                 {
@@ -482,6 +476,9 @@
                 "textures/blocks/log_big_oak",
                 "textures/blocks/stripped_dark_oak_log"
             ]
+        },
+        "ice_carried": {
+            "textures": "textures/items/carry_item/ice_carried"
         },
         "hardened_clay": {
             "textures": {
@@ -2100,6 +2097,9 @@
                 "textures/blocks/stone_granite",
                 "textures/blocks/slab_sides/polished_granite_slab_side"
             ]
+        },
+        "amethyst_cluster_carried": {
+            "textures": "textures/items/carry_item/amethyst_cluster_carried"
         },
         "stained_clay": {
             "textures": [
