@@ -8,6 +8,282 @@
         "amethyst_cluster_carried": {
             "textures": "textures/items/carry_item/amethyst_cluster_carried"
         },
+        "dead_bush_new": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/deadbush/deadbush_0",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/deadbush/deadbush_1",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/deadbush/deadbush_2",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/deadbush/deadbush_3",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "basalt_top_new": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/basalt/basalt_top",
+                            "weight": 5
+                        },
+                        {
+                            "path": "textures/blocks/basalt/basalt_top_1",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/basalt/basalt_top_2",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "grass_top": {
+            "textures": {
+                "variations": [
+                    {
+                        "path": "textures/blocks/grass/grass_block_top",
+                        "weight": 0.1
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top1",
+                        "weight": 2
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top2",
+                        "weight": 0.1
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top3",
+                        "weight": 0.1
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top4",
+                        "weight": 2
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top5",
+                        "weight": 0.1
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top6",
+                        "weight": 2
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top7",
+                        "weight": 2
+                    },
+                    {
+                        "path": "textures/blocks/grass/grass_block_top8",
+                        "weight": 2
+                    }
+                ]
+            }
+        },
+        "waterlily": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_1",
+                            "weight": 2
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_2",
+                            "weight": 2
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_3",
+                            "weight": 2
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_4",
+                            "weight": 2
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_5",
+                            "weight": 2
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_7",
+                            "weight": 2
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_8",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_11",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/waterlily/waterlily_13",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "stonebrick": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_6",
+                            "weight": 12
+                        },
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_1",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_2",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_3",
+                            "weight": 4
+                        },
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_4",
+                            "weight": 4
+                        },
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_5",
+                            "weight": 4
+                        },
+                        {
+                            "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_0",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "cactus_side": {
+            "textures": {
+                "variations": [
+                    {
+                        "path": "textures/blocks/plants/cactus/cactus0",
+                        "weight": 0.2
+                    },
+                    {
+                        "path": "textures/blocks/plants/cactus/cactus1",
+                        "weight": 1
+                    },
+                    {
+                        "path": "textures/blocks/plants/cactus/cactus2",
+                        "weight": 0.4
+                    }
+                ]
+            }
+        },
+        "cobblestone_mossy": {
+            "textures": [
+              {
+                "variations": [
+                  {
+                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone0",
+                    "weight": 1
+                  },
+                  {
+                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone1",
+                    "weight": 1
+                  },
+                  {
+                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone2",
+                    "weight": 1
+                  },
+                  {
+                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone3",
+                    "weight": 1
+                  },
+                  {
+                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone4",
+                    "weight": 1
+                  }
+                ]
+              }
+            ]
+        },
+        "tallgrass": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/tallgrass/tallgrass_0",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/tallgrass/tallgrass_1",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/tallgrass/tallgrass_2",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/tallgrass/tallgrass_3",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "basalt_side_new": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/basalt/basalt_side",
+                            "weight": 5
+                        },
+                        {
+                            "path": "textures/blocks/basalt/basalt_side_1",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/basalt/basalt_side_2",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "netherrack_new": {
+            "textures": [
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/netherrack/netherrack",
+                            "weight": 5
+                        },
+                        {
+                            "path": "textures/blocks/netherrack/netherrack_magma",
+                            "weight": 3
+                        },
+                        {
+                            "path": "textures/blocks/netherrack/netherrack_soul",
+                            "weight": 2
+                        }
+                    ]
+                }
+            ]
+        },
         "wood_big_oak": {
             "textures": {
                 "variations": [

@@ -12,6 +12,39 @@
         },
         "sound": "stone"
     },
+    "netherrack": {
+		"textures": "netherrack_new",
+		"sound": "stone",
+		"carried_textures": "netherrack",
+		"isotropic": true
+	},
+    "deadbush": {
+		"sound": "grass",
+		"carried_textures": "deadbush",
+		"textures": "dead_bush_new"
+	},
+    "basalt": {
+		"sound": "basalt",
+		"isotropic": {
+			"up": true,
+			"down": true,
+			"side": false,
+			"north": false,
+			"south": false,
+			"west": false,
+			"east": false
+		},
+		"carried_textures": {
+			"up": "basalt_top",
+			"down": "basalt_top",
+			"side": "basalt_side"
+		},
+		"textures": {
+			"up": "basalt_top_new",
+			"down": "basalt_top_new",
+			"side": "basalt_side_new"
+		}
+	},
     "weathered_double_cut_copper_slab": {
         "textures": "weathered_cut_copper_double_slab",
         "isotropic": false,
@@ -76,7 +109,6 @@
         "isotropic": false,
         "sound": "copper"
     },
-
     "frame": {
         "textures": "itemframe_background",
         "blockshape": "invisible",
@@ -87,7 +119,6 @@
         "blockshape": "invisible",
         "sound": "itemframe"
     },
-
     "ice": {
         "textures": "ice",
         "sound": "glass",
