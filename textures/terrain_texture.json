@@ -6,7 +6,7 @@
             "textures": "textures/items/carry_item/ice_carried"
         },
         "amethyst_cluster_carried": {
-            "textures": "textures/carry_item/amethyst_cluster_carried"
+            "textures": "textures/items/carry_item/amethyst_cluster_carried"
         },
         "wood_big_oak": {
             "textures": {
