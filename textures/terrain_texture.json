@@ -270,15 +270,15 @@
                     "variations": [
                         {
                             "path": "textures/blocks/netherrack/netherrack",
-                            "weight": 5
+                            "weight": 50
                         },
                         {
                             "path": "textures/blocks/netherrack/netherrack_magma",
-                            "weight": 3
+                            "weight": 2
                         },
                         {
                             "path": "textures/blocks/netherrack/netherrack_soul",
-                            "weight": 2
+                            "weight": 1
                         }
                     ]
                 }
