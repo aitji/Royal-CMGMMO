@@ -138,7 +138,7 @@
                     "variations": [
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_6",
-                            "weight": 12
+                            "weight": 100
                         },
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_1",
@@ -146,11 +146,11 @@
                         },
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_2",
-                            "weight": 1
+                            "weight": 2
                         },
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_3",
-                            "weight": 4
+                            "weight": 3
                         },
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_4",
@@ -158,11 +158,11 @@
                         },
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_5",
-                            "weight": 4
+                            "weight": 5
                         },
                         {
                             "path": "textures/blocks/stonebrick_cracked/stonebrick_cracked_0",
-                            "weight": 1
+                            "weight": 6
                         }
                     ]
                 }
