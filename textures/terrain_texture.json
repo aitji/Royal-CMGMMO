@@ -194,30 +194,30 @@
         },
         "cobblestone_mossy": {
             "textures": [
-              {
-                "variations": [
-                  {
-                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone0",
-                    "weight": 1
-                  },
-                  {
-                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone1",
-                    "weight": 1
-                  },
-                  {
-                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone2",
-                    "weight": 1
-                  },
-                  {
-                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone3",
-                    "weight": 1
-                  },
-                  {
-                    "path": "textures/blocks/mossy_cobble/mossy_cobblestone4",
-                    "weight": 1
-                  }
-                ]
-              }
+                {
+                    "variations": [
+                        {
+                            "path": "textures/blocks/mossy_cobble/mossy_cobblestone0",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/mossy_cobble/mossy_cobblestone1",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/mossy_cobble/mossy_cobblestone2",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/mossy_cobble/mossy_cobblestone3",
+                            "weight": 1
+                        },
+                        {
+                            "path": "textures/blocks/mossy_cobble/mossy_cobblestone4",
+                            "weight": 1
+                        }
+                    ]
+                }
             ]
         },
         "tallgrass": {
