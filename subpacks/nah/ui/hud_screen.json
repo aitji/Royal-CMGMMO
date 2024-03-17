@@ -3550,6 +3550,20 @@
                 }
             },
             {
+                "sidebar@scoreboard.scoreboard_sidebar": {
+                    "offset": [
+                        "0%",
+                        "0%"
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#scoreboard_sidebar_visible",
+                            "binding_name_override": "#visible"
+                        }
+                    ]
+                }
+            },
+            {
                 "progress_rend@progress_indicator_renderer": {
                     "offset": [
                         "50%",
