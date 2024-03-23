@@ -372,8 +372,8 @@
                 "item_text": {
                     "type": "panel",
                     "offset": [
-                        0,
-                        0
+                        "0",
+                        "0"
                     ],
                     "anchor_from": "bottom_middle",
                     "anchor_to": "bottom_middle",
