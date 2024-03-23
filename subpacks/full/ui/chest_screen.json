@@ -1,0 +1,21 @@
+{
+  "small_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "dv_renderer@durability.dv_renderer": {} }
+      }
+    ]
+  },
+
+  "large_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "dv_renderer@durability.dv_renderer": {} }
+      }
+    ]
+  }
+}

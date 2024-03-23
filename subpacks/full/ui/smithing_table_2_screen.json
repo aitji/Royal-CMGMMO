@@ -1,0 +1,11 @@
+{
+  "smithing_table_panel": {
+    "modifications": [
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "dv_renderer@durability.dv_renderer": {} }
+      }
+    ]
+  }
+}

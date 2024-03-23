@@ -1,0 +1,11 @@
+{
+  "recipe_inventory_screen_content": {
+    "modifications": [
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "dv_renderer@durability.dv_renderer": {} }
+      }
+    ]
+  }
+}

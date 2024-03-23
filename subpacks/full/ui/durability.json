@@ -1,0 +1,1637 @@
+{
+	"namespace": "durability",
+
+	"dv_renderer": {
+		"type": "image",
+		"anchor_from": "bottom_middle",
+		"anchor_to": "bottom_middle",
+		"texture": "textures/durability/bg_p",
+		"layer": 100,
+		"size": [
+			"100%c + 6px",
+			"100%c + 4px"
+		],
+		"offset": [
+			0,
+			-20
+		],
+		"bindings": [
+			{
+				"binding_name": "#selected_item_durability_total_amount"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "(not (#selected_item_durability_total_amount = 0))",
+				"target_property_name": "#visible"
+			}
+		],
+		"controls": [
+			{
+				"durability_panel_main": {
+					"type": "stack_panel",
+					"orientation": "vertical",
+					"align": "center",
+					"size": [ "100%cm", "100%c" ],
+					"controls": [
+						{
+							"durability_count_panel@durability_count": {}
+						},
+						{
+							"durability_left_panel@durability_left_count": {}
+						}
+					]
+				}
+			}
+		]
+	},
+
+	"durability_count_num": {
+		"type": "label",
+		"text": "$durability_num",
+		"color": "$durability_color",
+		"shadow": true,
+		"localize": false,
+		"bindings": [
+			{
+				"binding_name": "#selected_item_durability_current_amount",
+				"binding_condition": "always"
+			},
+			{
+				"binding_name": "#selected_item_durability_total_amount",
+				"binding_condition": "always"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "((((#selected_item_durability_current_amount / #selected_item_durability_total_amount) * 100) > $min_amount) and (((#selected_item_durability_current_amount / #selected_item_durability_total_amount) * 100) < $max_amount)) or (((#selected_item_durability_current_amount / #selected_item_durability_total_amount) * 100) = $min_amount)",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"durability_left_num": {
+		"type": "label",
+		"text": "('§r' + $durability_left)",
+		"shadow": true,
+		"localize": false,
+		"bindings": [
+			{
+				"binding_name": "#selected_item_durability_current_amount",
+				"binding_condition": "always"
+			},
+			{
+				"binding_type": "view",
+				"source_property_name": "((#selected_item_durability_current_amount < 65) and (#selected_item_durability_current_amount = $durability_left))",
+				"target_property_name": "#visible"
+			}
+		]
+	},
+	"durability_left_count": {
+		"type": "panel",
+		"size": [
+			"100%cm",
+			"100%cm"
+		],
+		"controls": [
+			{
+				"0@durability_left_num": {
+					"$durability_left": ""
+				}
+			},
+			{
+				"1@durability_left_num": {
+					"$durability_left": 1
+				}
+			},
+			{
+				"2@durability_left_num": {
+					"$durability_left": 2
+				}
+			},
+			{
+				"3@durability_left_num": {
+					"$durability_left": 3
+				}
+			},
+			{
+				"4@durability_left_num": {
+					"$durability_left": 4
+				}
+			},
+			{
+				"5@durability_left_num": {
+					"$durability_left": 5
+				}
+			},
+			{
+				"6@durability_left_num": {
+					"$durability_left": 6
+				}
+			},
+			{
+				"7@durability_left_num": {
+					"$durability_left": 7
+				}
+			},
+			{
+				"8@durability_left_num": {
+					"$durability_left": 8
+				}
+			},
+			{
+				"9@durability_left_num": {
+					"$durability_left": 9
+				}
+			},
+			{
+				"10@durability_left_num": {
+					"$durability_left": 10
+				}
+			},
+			{
+				"11@durability_left_num": {
+					"$durability_left": 11
+				}
+			},
+			{
+				"12@durability_left_num": {
+					"$durability_left": 12
+				}
+			},
+			{
+				"13@durability_left_num": {
+					"$durability_left": 13
+				}
+			},
+			{
+				"14@durability_left_num": {
+					"$durability_left": 14
+				}
+			},
+			{
+				"15@durability_left_num": {
+					"$durability_left": 15
+				}
+			},
+			{
+				"16@durability_left_num": {
+					"$durability_left": 16
+				}
+			},
+			{
+				"17@durability_left_num": {
+					"$durability_left": 17
+				}
+			},
+			{
+				"18@durability_left_num": {
+					"$durability_left": 18
+				}
+			},
+			{
+				"19@durability_left_num": {
+					"$durability_left": 19
+				}
+			},
+			{
+				"20@durability_left_num": {
+					"$durability_left": 20
+				}
+			},
+			{
+				"21@durability_left_num": {
+					"$durability_left": 21
+				}
+			},
+			{
+				"22@durability_left_num": {
+					"$durability_left": 22
+				}
+			},
+			{
+				"23@durability_left_num": {
+					"$durability_left": 23
+				}
+			},
+			{
+				"24@durability_left_num": {
+					"$durability_left": 24
+				}
+			},
+			{
+				"25@durability_left_num": {
+					"$durability_left": 25
+				}
+			},
+			{
+				"26@durability_left_num": {
+					"$durability_left": 26
+				}
+			},
+			{
+				"27@durability_left_num": {
+					"$durability_left": 27
+				}
+			},
+			{
+				"28@durability_left_num": {
+					"$durability_left": 28
+				}
+			},
+			{
+				"29@durability_left_num": {
+					"$durability_left": 29
+				}
+			},
+			{
+				"30@durability_left_num": {
+					"$durability_left": 30
+				}
+			},
+			{
+				"31@durability_left_num": {
+					"$durability_left": 31
+				}
+			},
+			{
+				"32@durability_left_num": {
+					"$durability_left": 32
+				}
+			},
+			{
+				"33@durability_left_num": {
+					"$durability_left": 33
+				}
+			},
+			{
+				"34@durability_left_num": {
+					"$durability_left": 34
+				}
+			},
+			{
+				"35@durability_left_num": {
+					"$durability_left": 35
+				}
+			},
+			{
+				"36@durability_left_num": {
+					"$durability_left": 36
+				}
+			},
+			{
+				"37@durability_left_num": {
+					"$durability_left": 37
+				}
+			},
+			{
+				"38@durability_left_num": {
+					"$durability_left": 38
+				}
+			},
+			{
+				"39@durability_left_num": {
+					"$durability_left": 39
+				}
+			},
+			{
+				"40@durability_left_num": {
+					"$durability_left": 40
+				}
+			},
+			{
+				"41@durability_left_num": {
+					"$durability_left": 41
+				}
+			},
+			{
+				"42@durability_left_num": {
+					"$durability_left": 42
+				}
+			},
+			{
+				"43@durability_left_num": {
+					"$durability_left": 43
+				}
+			},
+			{
+				"44@durability_left_num": {
+					"$durability_left": 44
+				}
+			},
+			{
+				"45@durability_left_num": {
+					"$durability_left": 45
+				}
+			},
+			{
+				"46@durability_left_num": {
+					"$durability_left": 46
+				}
+			},
+			{
+				"47@durability_left_num": {
+					"$durability_left": 47
+				}
+			},
+			{
+				"48@durability_left_num": {
+					"$durability_left": 48
+				}
+			},
+			{
+				"49@durability_left_num": {
+					"$durability_left": 49
+				}
+			},
+			{
+				"50@durability_left_num": {
+					"$durability_left": 50
+				}
+			},
+			{
+				"51@durability_left_num": {
+					"$durability_left": 51
+				}
+			},
+			{
+				"52@durability_left_num": {
+					"$durability_left": 52
+				}
+			},
+			{
+				"53@durability_left_num": {
+					"$durability_left": 53
+				}
+			},
+			{
+				"54@durability_left_num": {
+					"$durability_left": 54
+				}
+			},
+			{
+				"55@durability_left_num": {
+					"$durability_left": 55
+				}
+			},
+			{
+				"56@durability_left_num": {
+					"$durability_left": 56
+				}
+			},
+			{
+				"57@durability_left_num": {
+					"$durability_left": 57
+				}
+			},
+			{
+				"58@durability_left_num": {
+					"$durability_left": 58
+				}
+			},
+			{
+				"59@durability_left_num": {
+					"$durability_left": 59
+				}
+			},
+			{
+				"60@durability_left_num": {
+					"$durability_left": 60
+				}
+			},
+			{
+				"61@durability_left_num": {
+					"$durability_left": 61
+				}
+			},
+			{
+				"62@durability_left_num": {
+					"$durability_left": 62
+				}
+			},
+			{
+				"63@durability_left_num": {
+					"$durability_left": 63
+				}
+			},
+			{
+				"64@durability_left_num": {
+					"$durability_left": 64
+				}
+			}
+		]
+	},
+	"durability_count": {
+		"type": "panel",
+		"size": [
+			"100%cm",
+			"100%cm"
+		],
+		"controls": [
+			{
+				"0p@durability_count_num": {
+					"$durability_num": "",
+					"$min_amount": 0,
+					"$max_amount": 0
+				}
+			},
+			{
+				"1p@durability_count_num": {
+					"$durability_num": "1%",
+					"$min_amount": 0.1,
+					"$max_amount": 2,
+					"color": [
+						1,
+						0.1,
+						0
+					]
+				}
+			},
+			{
+				"2p@durability_count_num": {
+					"$durability_num": "2%",
+					"$min_amount": 2,
+					"$max_amount": 3,
+					"color": [
+						1,
+						0.1,
+						0
+					]
+				}
+			},
+			{
+				"3p@durability_count_num": {
+					"$durability_num": "3%",
+					"$min_amount": 3,
+					"$max_amount": 4,
+					"color": [
+						1,
+						0.1,
+						0
+					]
+				}
+			},
+			{
+				"4p@durability_count_num": {
+					"$durability_num": "4%",
+					"$min_amount": 4,
+					"$max_amount": 5,
+					"color": [
+						1,
+						0.1,
+						0
+					]
+				}
+			},
+			{
+				"5p@durability_count_num": {
+					"$durability_num": "5%",
+					"$min_amount": 5,
+					"$max_amount": 6,
+					"color": [
+						1,
+						0.1,
+						0
+					]
+				}
+			},
+			{
+				"6p@durability_count_num": {
+					"$durability_num": "6%",
+					"$min_amount": 6,
+					"$max_amount": 7,
+					"color": [
+						1,
+						0.2,
+						0
+					]
+				}
+			},
+			{
+				"7p@durability_count_num": {
+					"$durability_num": "7%",
+					"$min_amount": 7,
+					"$max_amount": 8,
+					"color": [
+						1,
+						0.2,
+						0
+					]
+				}
+			},
+			{
+				"8p@durability_count_num": {
+					"$durability_num": "8%",
+					"$min_amount": 8,
+					"$max_amount": 9,
+					"color": [
+						1,
+						0.2,
+						0
+					]
+				}
+			},
+			{
+				"9p@durability_count_num": {
+					"$durability_num": "9%",
+					"$min_amount": 9,
+					"$max_amount": 10,
+					"color": [
+						1,
+						0.2,
+						0
+					]
+				}
+			},
+			{
+				"10p@durability_count_num": {
+					"$durability_num": "10%",
+					"$min_amount": 10,
+					"$max_amount": 11,
+					"color": [
+						1,
+						0.2,
+						0
+					]
+				}
+			},
+			{
+				"11p@durability_count_num": {
+					"$durability_num": "11%",
+					"$min_amount": 11,
+					"$max_amount": 12,
+					"color": [
+						1,
+						0.3,
+						0
+					]
+				}
+			},
+			{
+				"12p@durability_count_num": {
+					"$durability_num": "12%",
+					"$min_amount": 12,
+					"$max_amount": 13,
+					"color": [
+						1,
+						0.3,
+						0
+					]
+				}
+			},
+			{
+				"13p@durability_count_num": {
+					"$durability_num": "13%",
+					"$min_amount": 13,
+					"$max_amount": 14,
+					"color": [
+						1,
+						0.3,
+						0
+					]
+				}
+			},
+			{
+				"14p@durability_count_num": {
+					"$durability_num": "14%",
+					"$min_amount": 14,
+					"$max_amount": 15,
+					"color": [
+						1,
+						0.3,
+						0
+					]
+				}
+			},
+			{
+				"15p@durability_count_num": {
+					"$durability_num": "15%",
+					"$min_amount": 15,
+					"$max_amount": 16,
+					"color": [
+						1,
+						0.3,
+						0
+					]
+				}
+			},
+			{
+				"16p@durability_count_num": {
+					"$durability_num": "16%",
+					"$min_amount": 16,
+					"$max_amount": 17,
+					"color": [
+						1,
+						0.4,
+						0
+					]
+				}
+			},
+			{
+				"17p@durability_count_num": {
+					"$durability_num": "17%",
+					"$min_amount": 17,
+					"$max_amount": 18,
+					"color": [
+						1,
+						0.4,
+						0
+					]
+				}
+			},
+			{
+				"18p@durability_count_num": {
+					"$durability_num": "18%",
+					"$min_amount": 18,
+					"$max_amount": 19,
+					"color": [
+						1,
+						0.4,
+						0
+					]
+				}
+			},
+			{
+				"19p@durability_count_num": {
+					"$durability_num": "19%",
+					"$min_amount": 19,
+					"$max_amount": 20,
+					"color": [
+						1,
+						0.4,
+						0
+					]
+				}
+			},
+			{
+				"20p@durability_count_num": {
+					"$durability_num": "20%",
+					"$min_amount": 20,
+					"$max_amount": 21,
+					"color": [
+						1,
+						0.4,
+						0
+					]
+				}
+			},
+			{
+				"21p@durability_count_num": {
+					"$durability_num": "21%",
+					"$min_amount": 21,
+					"$max_amount": 22,
+					"color": [
+						1,
+						0.5,
+						0
+					]
+				}
+			},
+			{
+				"22p@durability_count_num": {
+					"$durability_num": "22%",
+					"$min_amount": 22,
+					"$max_amount": 23,
+					"color": [
+						1,
+						0.5,
+						0
+					]
+				}
+			},
+			{
+				"23p@durability_count_num": {
+					"$durability_num": "23%",
+					"$min_amount": 23,
+					"$max_amount": 24,
+					"color": [
+						1,
+						0.5,
+						0
+					]
+				}
+			},
+			{
+				"24p@durability_count_num": {
+					"$durability_num": "24%",
+					"$min_amount": 24,
+					"$max_amount": 25,
+					"color": [
+						1,
+						0.5,
+						0
+					]
+				}
+			},
+			{
+				"25p@durability_count_num": {
+					"$durability_num": "25%",
+					"$min_amount": 25,
+					"$max_amount": 26,
+					"color": [
+						1,
+						0.5,
+						0
+					]
+				}
+			},
+			{
+				"26p@durability_count_num": {
+					"$durability_num": "26%",
+					"$min_amount": 26,
+					"$max_amount": 27,
+					"color": [
+						1,
+						0.6,
+						0
+					]
+				}
+			},
+			{
+				"27p@durability_count_num": {
+					"$durability_num": "27%",
+					"$min_amount": 27,
+					"$max_amount": 28,
+					"color": [
+						1,
+						0.6,
+						0
+					]
+				}
+			},
+			{
+				"28p@durability_count_num": {
+					"$durability_num": "28%",
+					"$min_amount": 28,
+					"$max_amount": 29,
+					"color": [
+						1,
+						0.6,
+						0
+					]
+				}
+			},
+			{
+				"29p@durability_count_num": {
+					"$durability_num": "29%",
+					"$min_amount": 29,
+					"$max_amount": 30,
+					"color": [
+						1,
+						0.6,
+						0
+					]
+				}
+			},
+			{
+				"30p@durability_count_num": {
+					"$durability_num": "30%",
+					"$min_amount": 30,
+					"$max_amount": 31,
+					"color": [
+						1,
+						0.6,
+						0
+					]
+				}
+			},
+			{
+				"31p@durability_count_num": {
+					"$durability_num": "31%",
+					"$min_amount": 31,
+					"$max_amount": 32,
+					"color": [
+						1,
+						0.7,
+						0
+					]
+				}
+			},
+			{
+				"32p@durability_count_num": {
+					"$durability_num": "32%",
+					"$min_amount": 32,
+					"$max_amount": 33,
+					"color": [
+						1,
+						0.7,
+						0
+					]
+				}
+			},
+			{
+				"33p@durability_count_num": {
+					"$durability_num": "33%",
+					"$min_amount": 33,
+					"$max_amount": 34,
+					"color": [
+						1,
+						0.7,
+						0
+					]
+				}
+			},
+			{
+				"34p@durability_count_num": {
+					"$durability_num": "34%",
+					"$min_amount": 34,
+					"$max_amount": 35,
+					"color": [
+						1,
+						0.7,
+						0
+					]
+				}
+			},
+			{
+				"35p@durability_count_num": {
+					"$durability_num": "35%",
+					"$min_amount": 35,
+					"$max_amount": 36,
+					"color": [
+						1,
+						0.7,
+						0
+					]
+				}
+			},
+			{
+				"36p@durability_count_num": {
+					"$durability_num": "36%",
+					"$min_amount": 36,
+					"$max_amount": 37,
+					"color": [
+						1,
+						0.8,
+						0
+					]
+				}
+			},
+			{
+				"37p@durability_count_num": {
+					"$durability_num": "37%",
+					"$min_amount": 37,
+					"$max_amount": 38,
+					"color": [
+						1,
+						0.8,
+						0
+					]
+				}
+			},
+			{
+				"38p@durability_count_num": {
+					"$durability_num": "38%",
+					"$min_amount": 38,
+					"$max_amount": 39,
+					"color": [
+						1,
+						0.8,
+						0
+					]
+				}
+			},
+			{
+				"39p@durability_count_num": {
+					"$durability_num": "39%",
+					"$min_amount": 39,
+					"$max_amount": 40,
+					"color": [
+						1,
+						0.8,
+						0
+					]
+				}
+			},
+			{
+				"40p@durability_count_num": {
+					"$durability_num": "40%",
+					"$min_amount": 40,
+					"$max_amount": 41,
+					"color": [
+						1,
+						0.8,
+						0
+					]
+				}
+			},
+			{
+				"41p@durability_count_num": {
+					"$durability_num": "41%",
+					"$min_amount": 41,
+					"$max_amount": 42,
+					"color": [
+						1,
+						0.9,
+						0
+					]
+				}
+			},
+			{
+				"42p@durability_count_num": {
+					"$durability_num": "42%",
+					"$min_amount": 42,
+					"$max_amount": 43,
+					"color": [
+						1,
+						0.9,
+						0
+					]
+				}
+			},
+			{
+				"43p@durability_count_num": {
+					"$durability_num": "43%",
+					"$min_amount": 43,
+					"$max_amount": 44,
+					"color": [
+						1,
+						0.9,
+						0
+					]
+				}
+			},
+			{
+				"44p@durability_count_num": {
+					"$durability_num": "44%",
+					"$min_amount": 44,
+					"$max_amount": 45,
+					"color": [
+						1,
+						0.9,
+						0
+					]
+				}
+			},
+			{
+				"45p@durability_count_num": {
+					"$durability_num": "45%",
+					"$min_amount": 45,
+					"$max_amount": 46,
+					"color": [
+						1,
+						0.9,
+						0
+					]
+				}
+			},
+			{
+				"46p@durability_count_num": {
+					"$durability_num": "46%",
+					"$min_amount": 46,
+					"$max_amount": 47,
+					"color": [
+						1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"47p@durability_count_num": {
+					"$durability_num": "47%",
+					"$min_amount": 47,
+					"$max_amount": 48,
+					"color": [
+						1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"48p@durability_count_num": {
+					"$durability_num": "48%",
+					"$min_amount": 48,
+					"$max_amount": 49,
+					"color": [
+						1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"49p@durability_count_num": {
+					"$durability_num": "49%",
+					"$min_amount": 49,
+					"$max_amount": 50,
+					"color": [
+						1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"50p@durability_count_num": {
+					"$durability_num": "50%",
+					"$min_amount": 50,
+					"$max_amount": 51,
+					"color": [
+						1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"51p@durability_count_num": {
+					"$durability_num": "51%",
+					"$min_amount": 51,
+					"$max_amount": 52,
+					"color": [
+						0.9,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"52p@durability_count_num": {
+					"$durability_num": "52%",
+					"$min_amount": 52,
+					"$max_amount": 53,
+					"color": [
+						0.9,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"53p@durability_count_num": {
+					"$durability_num": "53%",
+					"$min_amount": 53,
+					"$max_amount": 54,
+					"color": [
+						0.9,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"54p@durability_count_num": {
+					"$durability_num": "54%",
+					"$min_amount": 54,
+					"$max_amount": 55,
+					"color": [
+						0.9,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"55p@durability_count_num": {
+					"$durability_num": "55%",
+					"$min_amount": 55,
+					"$max_amount": 56,
+					"color": [
+						0.9,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"56p@durability_count_num": {
+					"$durability_num": "56%",
+					"$min_amount": 56,
+					"$max_amount": 57,
+					"color": [
+						0.8,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"57p@durability_count_num": {
+					"$durability_num": "57%",
+					"$min_amount": 57,
+					"$max_amount": 58,
+					"color": [
+						0.8,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"58p@durability_count_num": {
+					"$durability_num": "58%",
+					"$min_amount": 58,
+					"$max_amount": 59,
+					"color": [
+						0.8,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"59p@durability_count_num": {
+					"$durability_num": "59%",
+					"$min_amount": 59,
+					"$max_amount": 60,
+					"color": [
+						0.8,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"60p@durability_count_num": {
+					"$durability_num": "60%",
+					"$min_amount": 60,
+					"$max_amount": 61,
+					"color": [
+						0.8,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"61p@durability_count_num": {
+					"$durability_num": "61%",
+					"$min_amount": 61,
+					"$max_amount": 62,
+					"color": [
+						0.7,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"62p@durability_count_num": {
+					"$durability_num": "62%",
+					"$min_amount": 62,
+					"$max_amount": 63,
+					"color": [
+						0.7,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"63p@durability_count_num": {
+					"$durability_num": "63%",
+					"$min_amount": 63,
+					"$max_amount": 64,
+					"color": [
+						0.7,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"64p@durability_count_num": {
+					"$durability_num": "64%",
+					"$min_amount": 64,
+					"$max_amount": 65,
+					"color": [
+						0.7,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"65p@durability_count_num": {
+					"$durability_num": "65%",
+					"$min_amount": 65,
+					"$max_amount": 66,
+					"color": [
+						0.7,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"66p@durability_count_num": {
+					"$durability_num": "66%",
+					"$min_amount": 66,
+					"$max_amount": 67,
+					"color": [
+						0.6,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"67p@durability_count_num": {
+					"$durability_num": "67%",
+					"$min_amount": 67,
+					"$max_amount": 68,
+					"color": [
+						0.6,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"68p@durability_count_num": {
+					"$durability_num": "68%",
+					"$min_amount": 68,
+					"$max_amount": 69,
+					"color": [
+						0.6,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"69p@durability_count_num": {
+					"$durability_num": "69%",
+					"$min_amount": 69,
+					"$max_amount": 70,
+					"color": [
+						0.6,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"70p@durability_count_num": {
+					"$durability_num": "70%",
+					"$min_amount": 70,
+					"$max_amount": 71,
+					"color": [
+						0.6,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"71p@durability_count_num": {
+					"$durability_num": "71%",
+					"$min_amount": 71,
+					"$max_amount": 72,
+					"color": [
+						0.5,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"72p@durability_count_num": {
+					"$durability_num": "72%",
+					"$min_amount": 72,
+					"$max_amount": 73,
+					"color": [
+						0.5,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"73p@durability_count_num": {
+					"$durability_num": "73%",
+					"$min_amount": 73,
+					"$max_amount": 74,
+					"color": [
+						0.5,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"74p@durability_count_num": {
+					"$durability_num": "74%",
+					"$min_amount": 74,
+					"$max_amount": 75,
+					"color": [
+						0.5,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"75p@durability_count_num": {
+					"$durability_num": "75%",
+					"$min_amount": 75,
+					"$max_amount": 76,
+					"color": [
+						0.5,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"76p@durability_count_num": {
+					"$durability_num": "76%",
+					"$min_amount": 76,
+					"$max_amount": 77,
+					"color": [
+						0.4,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"77p@durability_count_num": {
+					"$durability_num": "77%",
+					"$min_amount": 77,
+					"$max_amount": 78,
+					"color": [
+						0.4,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"78p@durability_count_num": {
+					"$durability_num": "78%",
+					"$min_amount": 78,
+					"$max_amount": 79,
+					"color": [
+						0.4,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"79p@durability_count_num": {
+					"$durability_num": "79%",
+					"$min_amount": 79,
+					"$max_amount": 80,
+					"color": [
+						0.4,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"80p@durability_count_num": {
+					"$durability_num": "80%",
+					"$min_amount": 80,
+					"$max_amount": 81,
+					"color": [
+						0.4,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"81p@durability_count_num": {
+					"$durability_num": "81%",
+					"$min_amount": 81,
+					"$max_amount": 82,
+					"color": [
+						0.3,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"82p@durability_count_num": {
+					"$durability_num": "82%",
+					"$min_amount": 82,
+					"$max_amount": 83,
+					"color": [
+						0.3,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"83p@durability_count_num": {
+					"$durability_num": "83%",
+					"$min_amount": 83,
+					"$max_amount": 84,
+					"color": [
+						0.3,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"84p@durability_count_num": {
+					"$durability_num": "84%",
+					"$min_amount": 84,
+					"$max_amount": 85,
+					"color": [
+						0.3,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"85p@durability_count_num": {
+					"$durability_num": "85%",
+					"$min_amount": 85,
+					"$max_amount": 86,
+					"color": [
+						0.3,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"86p@durability_count_num": {
+					"$durability_num": "86%",
+					"$min_amount": 86,
+					"$max_amount": 87,
+					"color": [
+						0.2,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"87p@durability_count_num": {
+					"$durability_num": "87%",
+					"$min_amount": 87,
+					"$max_amount": 88,
+					"color": [
+						0.2,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"88p@durability_count_num": {
+					"$durability_num": "88%",
+					"$min_amount": 88,
+					"$max_amount": 89,
+					"color": [
+						0.2,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"89p@durability_count_num": {
+					"$durability_num": "89%",
+					"$min_amount": 89,
+					"$max_amount": 90,
+					"color": [
+						0.2,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"90p@durability_count_num": {
+					"$durability_num": "90%",
+					"$min_amount": 90,
+					"$max_amount": 91,
+					"color": [
+						0.2,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"91p@durability_count_num": {
+					"$durability_num": "91%",
+					"$min_amount": 91,
+					"$max_amount": 92,
+					"color": [
+						0.1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"92p@durability_count_num": {
+					"$durability_num": "92%",
+					"$min_amount": 92,
+					"$max_amount": 93,
+					"color": [
+						0.1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"93p@durability_count_num": {
+					"$durability_num": "93%",
+					"$min_amount": 93,
+					"$max_amount": 94,
+					"color": [
+						0.1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"94p@durability_count_num": {
+					"$durability_num": "94%",
+					"$min_amount": 94,
+					"$max_amount": 95,
+					"color": [
+						0.1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"95p@durability_count_num": {
+					"$durability_num": "95%",
+					"$min_amount": 95,
+					"$max_amount": 96,
+					"color": [
+						0.1,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"96p@durability_count_num": {
+					"$durability_num": "96%",
+					"$min_amount": 96,
+					"$max_amount": 97,
+					"color": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"97p@durability_count_num": {
+					"$durability_num": "97%",
+					"$min_amount": 97,
+					"$max_amount": 98,
+					"color": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"98p@durability_count_num": {
+					"$durability_num": "98%",
+					"$min_amount": 98,
+					"$max_amount": 99,
+					"color": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"99p@durability_count_num": {
+					"$durability_num": "99%",
+					"$min_amount": 99,
+					"$max_amount": 100,
+					"color": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			{
+				"100p@durability_count_num": {
+					"$durability_num": "100%",
+					"$min_amount": 100,
+					"$max_amount": 101,
+					"color": [
+						0,
+						1,
+						0
+					]
+				}
+			}
+		]
+	}
+}
