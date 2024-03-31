@@ -1,6 +1,6 @@
 # Royal CMGMMO
 
-<div align="center">
+<div align="right">
   <img src="https://img.shields.io/github/downloads/lnwAitJi/Royal-CMGMMO/total?style=for-the-badge" alt="Downloads"/>
   <img src="https://img.shields.io/github/issues/lnwAitJi/Royal-CMGMMO?label=ISSUES&style=for-the-badge" alt="Issues Open"/>
 </div>
