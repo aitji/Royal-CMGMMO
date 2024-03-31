@@ -10,6 +10,7 @@ Royal CMGMMO is a resource pack designed for the **CMGMMO** server in Minecraft 
 ``please note: this is mostly use for CMGMMO server, and helping a small server CMGMMO, play server easier and cooler!``
 
 Latest Release **([Week 3](../../releases/tag/week_3))**
+``dev version`` [week3.2](../../releases/tag/week_3.2)
 
 ![banner](https://github.com/lnwAitJi/Royal-CMGMMO/assets/100911929/c5cf90b7-8c46-4da3-a5b1-8647eb557de5)
 
