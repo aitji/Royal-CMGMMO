@@ -5,7 +5,7 @@
 			"identifier": "aitji:footprint",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/blocks/wool_colored_white"
+				"texture": "textures/fp"
 			}
 		},
 		"components": {
